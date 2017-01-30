@@ -84,7 +84,7 @@
     **Answer:** User, Functional
 
 For this exercise, list the audience-oriented categories for each requirement. Are there requirements in each category? [If not, state why not…]
-> All the categories include at least one requirement except for implementation requirements, which is empty. You might need to buy new hardware or network bandwidth to support the application, but you’re presumably performing uploads and downloads now, so you may already have everything you need. In that case, there are no implementation requirements.
+> Only the Implementation category does not contain requirements, while the rest have at least one. The reason why there are none in the Implementation category is that even though other hardware or network specifications might be needed to support the application, the developer might not need the implementations since doing the upload/downloads for the application are presumably already being accomplished.
 
 **Problem 4.9, Stephens page 83-84**
 : Figure 4-1 [right] shows the design for a simple hangman game that will run on smartphones. When you click the New Bame button, the program picks a random mystery word from a large list and starts a new game. Then if you click a letter, either the letter is filled in where it appears in the mystery word, or a new piece of Mr. Bones's skeleton appears. In either case, the letter you clicked is grayed out so that you don't pick it again. If you guess all the letters in the mystery word, the game displays a message that says, "Congratulations, you won!" If you build Mr. Bones's complete skeleton, a message says, "Sorry, you lost." Brainstorm this application and see if you can think of ways you might change it. Use the MOSCOW method to prioritize your changes.
