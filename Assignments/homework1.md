@@ -30,7 +30,7 @@
 **Problem 3.4, Stephens page 51**
 : Build a Gantt chart for the network you drew in Exercise 3. [Yes, I know, you weren't assigned that one — however, when you do Exercise 2 you should have enough information for this one.] Start on Wednesday, January 1, 2020, and don't work on weekends or the following holidays: New Year's Day - January 1, Martin Luther King, Jr. Day - January 20, President's Day - February 17.
 > Gantt Chart (Click to expand)
-![Gantt Chart](images/3.4-gantt-chart.png)
+![Gantt Chart](https://raw.githubusercontent.com/trixr4kdz/AppArel/master/Assignments/images/3.4-gantt-chart.png)
 > Note that each item under Predecessors corresponds to the row number of the task in the table.
 
 **Problem 3.6, Stephens page 51**
