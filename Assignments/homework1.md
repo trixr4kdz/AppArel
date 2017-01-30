@@ -1,4 +1,4 @@
-# Homework 1 - Due 01/30/17 @ 6pm PST
+# Homework 1 - Due 01/30/17 @ 4:20pm PST
 
 **Problem 1.1, Stephens Page 12**
 :  What are the basic tasks that all software engineering projects must handle?
