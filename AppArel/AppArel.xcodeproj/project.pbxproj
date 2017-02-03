@@ -15,6 +15,9 @@
 		126808651E43EB9900B34FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126808631E43EB9900B34FAF /* LaunchScreen.storyboard */; };
 		126808701E43EB9900B34FAF /* AppArelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268086F1E43EB9900B34FAF /* AppArelTests.swift */; };
 		1268087B1E43EB9900B34FAF /* AppArelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268087A1E43EB9900B34FAF /* AppArelUITests.swift */; };
+		2E6963F87C73E9DA7832770D /* Pods_AppArelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EE62B0CE121ECBE84FA9F9 /* Pods_AppArelTests.framework */; };
+		439691388D4FCB60A30CB6D0 /* Pods_AppArelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A508D7D9181D9B7821795E /* Pods_AppArelUITests.framework */; };
+		A14C435838B3E789D0CF4622 /* Pods_AppArel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9950B9D02EB545C34A88252F /* Pods_AppArel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		126808761E43EB9900B34FAF /* AppArelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppArelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1268087A1E43EB9900B34FAF /* AppArelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppArelUITests.swift; sourceTree = "<group>"; };
 		1268087C1E43EB9900B34FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28461F158FF0B20A596A0C9C /* Pods-AppArel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppArel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppArel/Pods-AppArel.debug.xcconfig"; sourceTree = "<group>"; };
+		2B8C4B5B806F0429719AECE4 /* Pods-AppArelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppArelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppArelTests/Pods-AppArelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		65EE62B0CE121ECBE84FA9F9 /* Pods_AppArelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppArelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6FB2B38BFC69E4E5C69EAF /* Pods-AppArelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppArelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppArelUITests/Pods-AppArelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8287927356601336B700146F /* Pods-AppArelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppArelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppArelUITests/Pods-AppArelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9950B9D02EB545C34A88252F /* Pods_AppArel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppArel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		998C80B902ACD9C30EF121BC /* Pods-AppArel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppArel.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppArel/Pods-AppArel.release.xcconfig"; sourceTree = "<group>"; };
+		A2D06DEFB5F17207E30CCA3A /* Pods-AppArelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppArelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppArelTests/Pods-AppArelTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6A508D7D9181D9B7821795E /* Pods_AppArelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppArelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14C435838B3E789D0CF4622 /* Pods_AppArel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E6963F87C73E9DA7832770D /* Pods_AppArelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439691388D4FCB60A30CB6D0 /* Pods_AppArelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				1268086E1E43EB9900B34FAF /* AppArelTests */,
 				126808791E43EB9900B34FAF /* AppArelUITests */,
 				126808561E43EB9900B34FAF /* Products */,
+				A04C3D66E6B33C281FBF40A4 /* Pods */,
+				868726E040BEB3097EF61614 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = AppArelUITests;
 			sourceTree = "<group>";
 		};
+		868726E040BEB3097EF61614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9950B9D02EB545C34A88252F /* Pods_AppArel.framework */,
+				65EE62B0CE121ECBE84FA9F9 /* Pods_AppArelTests.framework */,
+				C6A508D7D9181D9B7821795E /* Pods_AppArelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A04C3D66E6B33C281FBF40A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28461F158FF0B20A596A0C9C /* Pods-AppArel.debug.xcconfig */,
+				998C80B902ACD9C30EF121BC /* Pods-AppArel.release.xcconfig */,
+				2B8C4B5B806F0429719AECE4 /* Pods-AppArelTests.debug.xcconfig */,
+				A2D06DEFB5F17207E30CCA3A /* Pods-AppArelTests.release.xcconfig */,
+				8287927356601336B700146F /* Pods-AppArelUITests.debug.xcconfig */,
+				6C6FB2B38BFC69E4E5C69EAF /* Pods-AppArelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1268087F1E43EB9900B34FAF /* Build configuration list for PBXNativeTarget "AppArel" */;
 			buildPhases = (
+				6DDC5748C9DF2508D29C6503 /* [CP] Check Pods Manifest.lock */,
 				126808511E43EB9800B34FAF /* Sources */,
 				126808521E43EB9800B34FAF /* Frameworks */,
 				126808531E43EB9800B34FAF /* Resources */,
+				05FBEC4C6A34858ABD6E629F /* [CP] Embed Pods Frameworks */,
+				AB3A2E1B9DFE4015AE0BF43A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 126808821E43EB9900B34FAF /* Build configuration list for PBXNativeTarget "AppArelTests" */;
 			buildPhases = (
+				10BDF37A08275AE48ADA6AB3 /* [CP] Check Pods Manifest.lock */,
 				126808671E43EB9900B34FAF /* Sources */,
 				126808681E43EB9900B34FAF /* Frameworks */,
 				126808691E43EB9900B34FAF /* Resources */,
+				8A04D0A45BBFA0BCF369A72F /* [CP] Embed Pods Frameworks */,
+				0D2F71419B1B4EE2768B4CB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 126808851E43EB9900B34FAF /* Build configuration list for PBXNativeTarget "AppArelUITests" */;
 			buildPhases = (
+				5FDBBD6E4AC2B171E3D6D438 /* [CP] Check Pods Manifest.lock */,
 				126808721E43EB9900B34FAF /* Sources */,
 				126808731E43EB9900B34FAF /* Frameworks */,
 				126808741E43EB9900B34FAF /* Resources */,
+				448D7D6AA949DF70F8121033 /* [CP] Embed Pods Frameworks */,
+				E46FF0A76EF1E322E0A824B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +309,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05FBEC4C6A34858ABD6E629F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppArel/Pods-AppArel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D2F71419B1B4EE2768B4CB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppArelTests/Pods-AppArelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10BDF37A08275AE48ADA6AB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		448D7D6AA949DF70F8121033 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppArelUITests/Pods-AppArelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FDBBD6E4AC2B171E3D6D438 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6DDC5748C9DF2508D29C6503 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A04D0A45BBFA0BCF369A72F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppArelTests/Pods-AppArelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB3A2E1B9DFE4015AE0BF43A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppArel/Pods-AppArel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E46FF0A76EF1E322E0A824B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppArelUITests/Pods-AppArelUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		126808511E43EB9800B34FAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -325,6 +512,7 @@
 		1268087D1E43EB9900B34FAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -374,6 +562,7 @@
 		1268087E1E43EB9900B34FAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -415,6 +604,7 @@
 		};
 		126808801E43EB9900B34FAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28461F158FF0B20A596A0C9C /* Pods-AppArel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QVV2GH6FUQ;
@@ -428,6 +618,7 @@
 		};
 		126808811E43EB9900B34FAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 998C80B902ACD9C30EF121BC /* Pods-AppArel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QVV2GH6FUQ;
@@ -441,6 +632,7 @@
 		};
 		126808831E43EB9900B34FAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8C4B5B806F0429719AECE4 /* Pods-AppArelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +648,7 @@
 		};
 		126808841E43EB9900B34FAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D06DEFB5F17207E30CCA3A /* Pods-AppArelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +664,7 @@
 		};
 		126808861E43EB9900B34FAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8287927356601336B700146F /* Pods-AppArelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QVV2GH6FUQ;
@@ -485,6 +679,7 @@
 		};
 		126808871E43EB9900B34FAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6FB2B38BFC69E4E5C69EAF /* Pods-AppArelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QVV2GH6FUQ;
@@ -516,6 +711,7 @@
 				126808811E43EB9900B34FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		126808821E43EB9900B34FAF /* Build configuration list for PBXNativeTarget "AppArelTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +720,7 @@
 				126808841E43EB9900B34FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		126808851E43EB9900B34FAF /* Build configuration list for PBXNativeTarget "AppArelUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +729,7 @@
 				126808871E43EB9900B34FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_AppArel {
+  umbrella header "Pods-AppArel-umbrella.h"
+
+  export *
+  module * { export * }
+}
