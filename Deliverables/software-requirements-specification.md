@@ -3,7 +3,7 @@
 This requirements specification document is created for AppArel, a virtual closet application made for the iPhone. The app will allow users to view their articles of clothing (e.g., shirts, dresses, shoes, necklaces, etc.) and prepare their clothes for any occassion before even putting them on. There will be a calendar view which lets users check what clothes they've worn on a specific day or plan ahead for a special event. Each user will need to sign up so they can add friends and share with them.
 The remainder of this document is structured as follows. Section 5.2 contains the Functional Requirements. Section 5.3 contains the Performance Requirements. Section 5.4 contains the Environment Requirements.
 
-![State Diagram](images/AppArel-state-diagram.svg)
+![State Diagram](images/AppArel-state-diagram.png)
 
 ## 5.2 Functional Requirements
 
