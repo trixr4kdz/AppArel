@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import SQLite
 
 class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let path = NSSearchPathForDirectoriesInDomains(
+            .documentDirectory, .userDomainMask, true
+            ).first!
+        
+        let db = try Connection("\(path)/db.sqlite3")
     }
 
     override func didReceiveMemoryWarning() {
