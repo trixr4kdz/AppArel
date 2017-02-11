@@ -8,7 +8,7 @@ In a __component-based architecture__ (CBSE), you regard the system as a collect
 ### Problem 5.2, Stephens page 116
 > Suppose you're building a phone application that lets you play tic-tac-toe against a simple computer opponent. It will display high scores stored on the phone, not in an external database. Which architectures would be most appropriate and why?
 
-The architectures most appropriate could be __monolithic__, __data-centric__, and __rule-based__. Since the application does not store high scores in an external database, those architectures that use a separate user interface from the databse would not be needed. Additionally, a simple game of tic-tac-toe wouldn't need very complex parts.
+The architectures most appropriate could be __monolithic__, __data-centric__, and __rule-based__. Since the application does not store high scores in an external database, those architectures that use a separate user interface from the database would not be needed. Additionally, a simple game of tic-tac-toe wouldn't need very complex parts.
 
 - Monolithic could be appropriate since the application seems to be self-contained because it's simple enough with just a computer opponent and a high score feature that it is easy to understand all the pieces and how they fit together. A monolithic architecture displays the user interface, accesses data, processes customer orders, etc.
 
@@ -35,13 +35,13 @@ Floating Point Numbers State Diagram <br>
 ### Problem 6.1, Stephens page 138
 > Consider the ```ClassyDraw``` classes ```Line```, ```Rectangle```, ```Ellipse```, ```Star```, and ```Text```. What properties do these classes all share? What properties do they not share? Are there any properties shared by some classes and not others? Where should the shared and nonshared properties be implemented?
 
-The ```Line```, ```Rectangle```, ```Ellipse```, ```Star```, and ```Text``` classes all have to be drawn, which means that they require properties such as outline color, background color, position (upper-left corner), height, and width. ```Text``` is a special class since it requires additional properties such as font size, font type, and string. Likewise, the ```Star``` class might need the number of points needed to draw a particular star shape. Moreover, the classes ```Rectangle```, ```Ellipse```, and ```Star``` may be filled with a specific color whereas the rest of the classes may not. Finally, the line thickness and line style may be specified for the classes ```Line```, ```Rectangle```, ```Ellipse```, and ```Star```.
+The ```Line```, ```Rectangle```, ```Ellipse```, ```Star```, and ```Text``` classes all have to be drawn, which means that they require properties such as outline color, background color, position (upper-left corner), height, and width. ```Text``` is a special class since it requires additional properties such as font size, font type, and string. Likewise, the ```Star``` class might need the number of points needed to draw a particular star shape. Moreover, the classes ```Rectangle```, ```Ellipse```, and ```Star``` may be filled with a specific color whereas the rest of the classes may not. Finally, the line thickness and line style may be specified for the classes ```Line```, ```Rectangle```, ```Ellipse```, and ```Star```. To summarize, the shared properties would be superclasses, and the nonshared properties would be enclosed inside classes that have no subclass.
 
 ### Problem 6.2, Stephens page 138
 > Draw an inheritance diagram showing the properties you identified for Exercise 1. (Create parent classes as needed, and don't forget the ```Drawable``` class at the top.)
 
 ClassyDraw Inheritance Diagram <br>
-![inheritance-diagram-6-2](images/inheritance-diagram-HW2-6.2.png "ClassyDraw (Click to expand)")
+![inheritance-diagram-6-2](images/inheritance-diagram-HW2-6.2.png "ClassyDraw")
 
 ### Problem 6.3, Stephens page 139
 > The following list gives the properties of several business-oriented classes.
@@ -56,7 +56,7 @@ ClassyDraw Inheritance Diagram <br>
 A ```Person``` class can hold the properties _Name_, _Phone_, _Address_ and can be a superclass of ```Customer```, ```Employee```, and ```Supplier``` since these classes all share the said properties. Likewise, the classes ```Salaried```, ```VicePresident```, and ```Manager``` share the properties _Office_ and _Salary_. However, only the VicePresident has the property _Managers_ and ```Salaried``` does not have the _Employees_ property so an extra class, ```EmployeePerks``` can be a superclass of both ```Salaried``` and ```VicePresident``` and ```Manager``` will be a subclass of ```Salaried```.
 
 Business Inheritance Diagram <br>
-![inheritance-diagram-6-3](images/inheritance-diagram-HW2-6.3.png "Business Inheritance (Click to expand)")
+![inheritance-diagram-6-3](images/inheritance-diagram-HW2-6.3.png "Business Inheritance")
 
 ### Problem 6.6, Stephens page 139
 > Suppose your company has many managerial types such as department manager, project manager, and division manager. You also have multiple levels of vice president, some of whom report to other manager types. How could you combine the ```Salaried```, ```Manager```, and ```VicePresident``` types you used in Exercise 3? Draw the new inheritance hierarchy.
@@ -64,4 +64,4 @@ Business Inheritance Diagram <br>
 The properties _Office_, _Salary_, _Boss_, and _Employees_ can be combined into a single class, ```Salaried```. For a ```VicePresident``` with no bosses, the ```Boss``` property would be empty. Additionally, the _Employees_ property would also be empty for employees who are not ```Managers```.
 
 Business Inheritance (with Managerial Types) Diagram
-![inheritance-diagram-6-6](images/inheritance-diagram-HW2-6.6.png "Managerial Types (Click to expand)")
+![inheritance-diagram-6-6](images/inheritance-diagram-HW2-6.6.png "Managerial Types")
