@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '55B015C4CD9A9B0C0A7644E5F49985D6'
-               BlueprintName = 'Pods-AppArel'
+               BlueprintIdentifier = 'C74D47B051BF84CA30E0723F127F42AD'
+               BlueprintName = 'FontAwesome.swift'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods-AppArel.framework'>
+               BuildableName = 'FontAwesome.swift.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

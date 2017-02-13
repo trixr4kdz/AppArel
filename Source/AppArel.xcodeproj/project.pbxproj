@@ -18,6 +18,7 @@
 		1271823C1E5243D400E466D9 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1249D7251E4D2E4500E6449A /* SQLite.framework */; };
 		2E6963F87C73E9DA7832770D /* Pods_AppArelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EE62B0CE121ECBE84FA9F9 /* Pods_AppArelTests.framework */; };
 		439691388D4FCB60A30CB6D0 /* Pods_AppArelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A508D7D9181D9B7821795E /* Pods_AppArelUITests.framework */; };
+		963FC4C4077D992E29B14425 /* Pods_AppArel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9950B9D02EB545C34A88252F /* Pods_AppArel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1271823C1E5243D400E466D9 /* SQLite.framework in Frameworks */,
+				963FC4C4077D992E29B14425 /* Pods_AppArel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
