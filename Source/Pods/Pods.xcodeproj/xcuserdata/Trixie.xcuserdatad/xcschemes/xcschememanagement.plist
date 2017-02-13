@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FontAwesome.swift-FontAwesome.swift.xcscheme</key>
+		<key>Font-Awesome-Swift-Font-Awesome-Swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>FontAwesome.swift.xcscheme</key>
+		<key>Font-Awesome-Swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -36,6 +36,37 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>5B142A098EF99D3E98BDE1F6F2207A95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>700B78B5CB12D243B0B7DD15911A1BED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78EEC8D6104BC1CD7DDB3AC21F46AEB5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9735AA72928D41DB06EA697E23930C72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA453546C51032641C49CACBC22725EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF771D77E2FC11FD66323B1A5D0572D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

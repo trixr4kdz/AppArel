@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import SQLite
+import SQLite
 
 class FirstViewController: UIViewController {
 
@@ -20,6 +20,7 @@ class FirstViewController: UIViewController {
 //            ).first!
 //        
 //        let db = try Connection("\(path)/db.sqlite3")
+//        let db2 = try Connection()
     }
 
     override func didReceiveMemoryWarning() {

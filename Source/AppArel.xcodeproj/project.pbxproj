@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1212CD751E524DEE000F5419 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1212CD741E524DEE000F5419 /* TabBarController.swift */; };
 		126808591E43EB9900B34FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126808581E43EB9900B34FAF /* AppDelegate.swift */; };
 		1268085B1E43EB9900B34FAF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268085A1E43EB9900B34FAF /* FirstViewController.swift */; };
 		1268085D1E43EB9900B34FAF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268085C1E43EB9900B34FAF /* SecondViewController.swift */; };
@@ -16,9 +17,9 @@
 		126808701E43EB9900B34FAF /* AppArelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268086F1E43EB9900B34FAF /* AppArelTests.swift */; };
 		1268087B1E43EB9900B34FAF /* AppArelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268087A1E43EB9900B34FAF /* AppArelUITests.swift */; };
 		1271823C1E5243D400E466D9 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1249D7251E4D2E4500E6449A /* SQLite.framework */; };
-		2E6963F87C73E9DA7832770D /* Pods_AppArelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EE62B0CE121ECBE84FA9F9 /* Pods_AppArelTests.framework */; };
-		439691388D4FCB60A30CB6D0 /* Pods_AppArelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A508D7D9181D9B7821795E /* Pods_AppArelUITests.framework */; };
-		963FC4C4077D992E29B14425 /* Pods_AppArel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9950B9D02EB545C34A88252F /* Pods_AppArel.framework */; };
+		676E876263228796608E6CC3 /* libPods-AppArelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2C3EFB75073B0101021558 /* libPods-AppArelTests.a */; };
+		E5692A3EFCD695A32A18B77B /* Pods_AppArel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9950B9D02EB545C34A88252F /* Pods_AppArel.framework */; };
+		EF4BFE7C4AD9160377D96767 /* libPods-AppArelUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4826C6BF90FAA46F7496EFFC /* libPods-AppArelUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1212CD741E524DEE000F5419 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		1212CD761E524EA7000F5419 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesome_swift.framework; path = "../../../../Library/Developer/Xcode/DerivedData/AppArel-cgkjdoytfyfxpievtqhqxmfpwbsv/Build/Products/Debug-iphonesimulator/FontAwesome.swift/FontAwesome_swift.framework"; sourceTree = "<group>"; };
 		1249D7251E4D2E4500E6449A /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = "../../../../Library/Developer/Xcode/DerivedData/AppArel-cgkjdoytfyfxpievtqhqxmfpwbsv/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework"; sourceTree = "<group>"; };
 		126808551E43EB9900B34FAF /* AppArel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppArel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		126808581E43EB9900B34FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,15 +57,16 @@
 		126808761E43EB9900B34FAF /* AppArelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppArelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1268087A1E43EB9900B34FAF /* AppArelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppArelUITests.swift; sourceTree = "<group>"; };
 		1268087C1E43EB9900B34FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1287705D1E5264F40082A028 /* Font_Awesome_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Font_Awesome_Swift.framework; path = "../../../../Library/Developer/Xcode/DerivedData/AppArel-cgkjdoytfyfxpievtqhqxmfpwbsv/Build/Products/Debug-iphonesimulator/Font-Awesome-Swift/Font_Awesome_Swift.framework"; sourceTree = "<group>"; };
 		28461F158FF0B20A596A0C9C /* Pods-AppArel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppArel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppArel/Pods-AppArel.debug.xcconfig"; sourceTree = "<group>"; };
 		2B8C4B5B806F0429719AECE4 /* Pods-AppArelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppArelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppArelTests/Pods-AppArelTests.debug.xcconfig"; sourceTree = "<group>"; };
-		65EE62B0CE121ECBE84FA9F9 /* Pods_AppArelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppArelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4826C6BF90FAA46F7496EFFC /* libPods-AppArelUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppArelUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6FB2B38BFC69E4E5C69EAF /* Pods-AppArelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppArelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppArelUITests/Pods-AppArelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D2C3EFB75073B0101021558 /* libPods-AppArelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppArelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8287927356601336B700146F /* Pods-AppArelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppArelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppArelUITests/Pods-AppArelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9950B9D02EB545C34A88252F /* Pods_AppArel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppArel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		998C80B902ACD9C30EF121BC /* Pods-AppArel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppArel.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppArel/Pods-AppArel.release.xcconfig"; sourceTree = "<group>"; };
 		A2D06DEFB5F17207E30CCA3A /* Pods-AppArelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppArelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppArelTests/Pods-AppArelTests.release.xcconfig"; sourceTree = "<group>"; };
-		C6A508D7D9181D9B7821795E /* Pods_AppArelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppArelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1271823C1E5243D400E466D9 /* SQLite.framework in Frameworks */,
-				963FC4C4077D992E29B14425 /* Pods_AppArel.framework in Frameworks */,
+				E5692A3EFCD695A32A18B77B /* Pods_AppArel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E6963F87C73E9DA7832770D /* Pods_AppArelTests.framework in Frameworks */,
+				676E876263228796608E6CC3 /* libPods-AppArelTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,13 +91,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				439691388D4FCB60A30CB6D0 /* Pods_AppArelUITests.framework in Frameworks */,
+				EF4BFE7C4AD9160377D96767 /* libPods-AppArelUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1212CD701E524D9C000F5419 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1268085A1E43EB9900B34FAF /* FirstViewController.swift */,
+				1268085C1E43EB9900B34FAF /* SecondViewController.swift */,
+				1212CD741E524DEE000F5419 /* TabBarController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1212CD721E524DB0000F5419 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1212CD731E524DB8000F5419 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		1268084C1E43EB9800B34FAF = {
 			isa = PBXGroup;
 			children = (
@@ -120,8 +148,9 @@
 			isa = PBXGroup;
 			children = (
 				126808581E43EB9900B34FAF /* AppDelegate.swift */,
-				1268085A1E43EB9900B34FAF /* FirstViewController.swift */,
-				1268085C1E43EB9900B34FAF /* SecondViewController.swift */,
+				1212CD731E524DB8000F5419 /* View */,
+				1212CD721E524DB0000F5419 /* Model */,
+				1212CD701E524D9C000F5419 /* Controller */,
 				1268085E1E43EB9900B34FAF /* Main.storyboard */,
 				126808611E43EB9900B34FAF /* Assets.xcassets */,
 				126808631E43EB9900B34FAF /* LaunchScreen.storyboard */,
@@ -151,10 +180,12 @@
 		868726E040BEB3097EF61614 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1287705D1E5264F40082A028 /* Font_Awesome_Swift.framework */,
+				1212CD761E524EA7000F5419 /* FontAwesome_swift.framework */,
 				1249D7251E4D2E4500E6449A /* SQLite.framework */,
 				9950B9D02EB545C34A88252F /* Pods_AppArel.framework */,
-				65EE62B0CE121ECBE84FA9F9 /* Pods_AppArelTests.framework */,
-				C6A508D7D9181D9B7821795E /* Pods_AppArelUITests.framework */,
+				6D2C3EFB75073B0101021558 /* libPods-AppArelTests.a */,
+				4826C6BF90FAA46F7496EFFC /* libPods-AppArelUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -457,6 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1268085D1E43EB9900B34FAF /* SecondViewController.swift in Sources */,
+				1212CD751E524DEE000F5419 /* TabBarController.swift in Sources */,
 				126808591E43EB9900B34FAF /* AppDelegate.swift in Sources */,
 				1268085B1E43EB9900B34FAF /* FirstViewController.swift in Sources */,
 			);
