@@ -1,4 +1,4 @@
-# AppArel
+# AppArel (development is currently on hold)
 
 ## Table of Contents
 
