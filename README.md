@@ -5,6 +5,7 @@
 ### Assignments
 - [Homework 1](Assignments/homework1.md)
 - [Homework 2](Assignments/homework2.md)
+- [Homework 3](Assignments/homework3.md)
 
 ### Deliverables
 - [Preliminary Project Document](Deliverables/preliminary-proposal-document.md)
