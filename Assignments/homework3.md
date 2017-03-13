@@ -3,8 +3,10 @@
 **Problem 7.1, Stephens page 169**
 > The greatest common divisor (GCD) of two integers is the largest integer that evenly divides them both. For example, the GCD of 84 and 36 is 12, because 12 is the largest integer that evenly divides both 84 and 36. You can learn more about the GCD and the Euclidean algorithm, which you can find at [en.wikipedia.org/wiki/Euclidean_algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm). (Don't worry about the code if you can't understand it. Just focus on the comments.)(Hint: It should take you only a few seconds to fix these comments. Don't make a career out of it.)
 
->        // Use Euclid's algorithm to calculate the GCD.
-         provate long GCD( long a, long b )
+>        
+``` csharp
+         // Use Euclid's algorithm to calculate the GCD.
+         private long GCD( long a, long b )
          {
             // Get the absolute value of a and b
             a = Math.abs( a );
@@ -21,6 +23,7 @@
                b = remainder;
             };
          }
+         ```
 
 The comments are not very helpful and are actually redundant. I would actually just remove the comments (except for maybe the very first one that says it uses the Euclidean algorithm) instead of trying to re-word them since the code seems self-explanatory.
 
@@ -75,7 +78,7 @@ Typically, the driver/main method/another function that calls this one would han
 > Suppose you've written an efficient ```IsRelativelyPrime``` method that takes two integers between -1 million and 1 million as parameters and returns ```true``` if they are relatively prime. Use either your favorite programming language or pseudocode (English that sort of looks like code) to write a method that tests the ```IsRelativelyPrime``` method. (Hint: You may find it useful to write another method that also tests two integers to see if they are relatively prime.)
 
 Another AreRelativelyPrime method in Javascript to check the answers from the original one:
-```
+``` javascript
 function AreRelativelyPrime2 (a, b) {
   if (!a) return ((b === 1) || (b === -1));
   if (!b) return ((a === 1) || (a === -1));
@@ -101,7 +104,7 @@ function GCD (a, b) {
 ```
 Tests using mocha framework:
 
-```
+``` javascript
 let expect = require("chai").expect;
 
 describe("AreRelativelyPrime", () => {
@@ -171,6 +174,7 @@ Since the method for checking that two integers are coprime is not fully explain
 **Problem 8.5, Stephens page 199 - 200**
 > the following code shows a C# version of the ```AreRelativelyPrime``` method and the ```GCD``` method it calls.
 
+``` csharp
          // Return true if a and b are relatively prime.
          private bool AreRelativelyPrime( int a, int b )
          {
@@ -202,11 +206,12 @@ Since the method for checking that two integers are coprime is not fully explain
                b = remainder;
             };
          }
+```
 > The ```AreRelativelyPrime``` method checks whether either value is 0. Only -1 and 1 are relatively prime to 0, so if a or b is 0, the method returns ```true``` only if the other value is -1 or 1.
 > The code then calls the ```GCD``` method to get the greatest common divisor of ```a``` and ```b```. If the greatest common divisor is -1 or 1, the values are relatively prime, so the method returns ```true```. Otherwise, the method returns ```false```.
 > Now that you know how the method works, implement it and your testing code in your favorite programming language. Did you find any bugs in your initial version of the method or in the testing code? Did you get any benefit from the testing code?
 
-```
+``` javascript
 function AreRelativelyPrime (a, b) {
   if (!(isNaN( parseInt(a) ) || isNaN(parseInt(b)))) {
     if( !a ) return ((b === 1) || (b === -1));
