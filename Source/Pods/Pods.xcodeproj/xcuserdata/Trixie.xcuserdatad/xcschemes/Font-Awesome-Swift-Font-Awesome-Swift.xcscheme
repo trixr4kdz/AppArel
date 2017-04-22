@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5B142A098EF99D3E98BDE1F6F2207A95'
-               BlueprintName = 'Pods-AppArelTests'
+               BlueprintIdentifier = '9735AA72928D41DB06EA697E23930C72'
+               BlueprintName = 'Font-Awesome-Swift-Font-Awesome-Swift'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-AppArelTests.a'>
+               BuildableName = 'Font-Awesome-Swift.bundle'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

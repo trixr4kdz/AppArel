@@ -15,11 +15,12 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let path = NSSearchPathForDirectoriesInDomains(
-            .documentDirectory, .userDomainMask, true
-            ).first!
-        
-        let db = try Connection("\(path)/db.sqlite3")
+//        let path = NSSearchPathForDirectoriesInDomains(
+//            .documentDirectory, .userDomainMask, true
+//            ).first!
+//        
+//        let db = try Connection("\(path)/db.sqlite3")
+//        let db2 = try Connection()
     }
 
     override func didReceiveMemoryWarning() {

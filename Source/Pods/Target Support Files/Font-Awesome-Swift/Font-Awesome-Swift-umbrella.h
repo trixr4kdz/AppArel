@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_AppArelUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_AppArelUITestsVersionString[];
+FOUNDATION_EXPORT double Font_Awesome_SwiftVersionNumber;
+FOUNDATION_EXPORT const unsigned char Font_Awesome_SwiftVersionString[];
 
